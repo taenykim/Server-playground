@@ -8,4 +8,7 @@
 - CORS 문제 발생이유 + 해결방법
 - 프론트에서 외부API 호출!?
 - 서버 호스팅, 클라우드, 람다
-- 실제 코딩
+
+## NEXT?
+
+- [한글만들기게임](https://github.com/taenykim/hangul-word-game) : 네이버 검색API 등록
