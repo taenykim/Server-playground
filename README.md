@@ -9,6 +9,16 @@
 - 프론트에서 외부API 호출!?
 - 서버 호스팅, 클라우드, 람다
 
+## 책
+
+- (그림으로 배우는) Http & Network Basic
+- HTTP 완벽 가이드 :웹은 어떻게 동작하는가
+
+## 라이브러리
+
+- http-server
+- express
+
 ## NEXT?
 
 - [한글만들기게임](https://github.com/taenykim/hangul-word-game) : 네이버 검색API 등록
