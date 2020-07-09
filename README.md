@@ -29,6 +29,8 @@
 
 ## cors
 
+**According to SOP(same-origin policy), resources cannot be exchanged between websites with different origins. However, there is a method to share resources between different origins. it is CORS.**
+
 ```bash
 npm i cors
 ```
