@@ -4,9 +4,6 @@
 
 ## TODO
 
-- 프론트와 서버의 통신방식 이해하기 + 간단하게 주고받아보기 (HTTP,API,restful)
-- CORS 문제 발생이유 + 해결방법
-- 프론트에서 외부API 호출!?
 - 서버 호스팅, 클라우드, 람다
 
 ## 책
@@ -16,7 +13,6 @@
 
 ## 라이브러리
 
-- http-server
 - express
 
 ## NEXT?
@@ -30,3 +26,15 @@
 ## RESTful API
 
 <https://evan-moon.github.io/2020/04/07/about-restful-api/>
+
+## cors
+
+```bash
+npm i cors
+```
+
+origin 등록해주기!
+
+## SOP
+
+![](https://github.com/taenykim/taenykim_blog/raw/6f342ee44541e2342328d3faddfe891002b4f1df/content/blog/project/images/crossdomain2.png)
