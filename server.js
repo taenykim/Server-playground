@@ -6,11 +6,12 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT;
+const request = require("request");
 
 function naver() {
-  const request = require("request");
   const NAVER_CLIENT_ID = process.env.NAVERID;
   const NAVER_CLIENT_SECRET = process.env.NAVERPASSWORD;
+
   const option = {
     query: "꽃", //이미지 검색 텍스트
   };
