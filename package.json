@@ -1,0 +1,20 @@
+{
+  "name": "server-playground",
+  "version": "1.0.0",
+  "description": "🛸 Server 연습장",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm start": "cd back && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taenykim/Server-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taenykim/Server-playground/issues"
+  },
+  "homepage": "https://github.com/taenykim/Server-playground#readme"
+}
