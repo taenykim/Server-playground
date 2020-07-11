@@ -2,6 +2,10 @@
 
 🛸 Server 연습장
 
+## todo
+
+api data check
+
 ## 책
 
 - (그림으로 배우는) Http & Network Basic
