@@ -1,8 +1,35 @@
 const express = require("express");
 const cors = require("cors");
 
+const dotenv = require("dotenv");
+dotenv.config();
+
 const app = express();
 const PORT = process.env.PORT;
+
+function naver() {
+  const request = require("request");
+  const NAVER_CLIENT_ID = process.env.NAVERID;
+  const NAVER_CLIENT_SECRET = process.env.NAVERPASSWORD;
+  const option = {
+    query: "꽃", //이미지 검색 텍스트
+  };
+
+  request.get(
+    {
+      uri: "https://openapi.naver.com/v1/search/image", //xml 요청 주소는 https://openapi.naver.com/v1/search/image.xml
+      qs: option,
+      headers: {
+        "X-Naver-Client-Id": NAVER_CLIENT_ID,
+        "X-Naver-Client-Secret": NAVER_CLIENT_SECRET,
+      },
+    },
+    function (err, res, body) {
+      let json = JSON.parse(body); //json으로 파싱
+      return json;
+    },
+  );
+}
 
 app.use(
   cors({
@@ -12,9 +39,10 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.send("안뇽!");
+  const json = naver();
+  res.send(json);
 });
 
 app.listen(PORT, () => {
-  console.log("server is running on http://localhost:4040");
+  console.log("server is running");
 });
