@@ -38,8 +38,8 @@ app.use(
   }),
 );
 
-app.get("/", (req, res) => {
-  const json = naver();
+app.get("/", async (req, res) => {
+  const json = await naver();
   res.send(json);
 });
 
