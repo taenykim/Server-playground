@@ -2,11 +2,6 @@
 
 🛸 Server 연습장
 
-## TODO
-
-- 서버 호스팅, 클라우드, 람다
-- heroku
-
 ## 책
 
 - (그림으로 배우는) Http & Network Basic
@@ -41,3 +36,7 @@ origin 등록해주기!
 ## SOP
 
 ![](https://github.com/taenykim/taenykim_blog/raw/6f342ee44541e2342328d3faddfe891002b4f1df/content/blog/project/images/crossdomain2.png)
+
+## heroku
+
+테스트완료
